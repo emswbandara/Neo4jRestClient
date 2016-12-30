@@ -8,7 +8,8 @@ import java.util.LinkedList;
 
 public class Main {
 
-static long startTime;
+	public static String fileName = "roadNet-PA.txt";
+	public static long startTime;
 
 	public static void main(String[] args) {
 		RandomAccessFile file = null;
@@ -18,7 +19,7 @@ static long startTime;
  		long size = 0;
  		long partitionSize = 0;
 		LinkedList<Long> listLocations = new LinkedList<Long>();
-		String fileName = "/home/sathya/roadNet-PA.txt";
+
 
 		//First we mark at which locations we should read the data
 

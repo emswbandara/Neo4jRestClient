@@ -18,7 +18,7 @@ static long startTime;
  		long size = 0;
  		long partitionSize = 0;
 		LinkedList<Long> listLocations = new LinkedList<Long>();
-		String fileName = "/home/sathya/roadNet-PA.txt";//"/home/miyurud/Acacia/graphs/Roadnet-PA/single-space-edges.txt";//"/home/miyurud/Acacia/graphs/livejournal.txt";
+		String fileName = "/home/sathya/roadNet-PA.txt";
 
 		//First we mark at which locations we should read the data
 
